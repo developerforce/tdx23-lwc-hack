@@ -1,0 +1,23 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    },
+    {
+      "path": "force-app/main/default",
+      "package": "lwc-mini-hack-TDX23",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "default": false,
+      "versionDescription": "LWC Mini Hack TDX23"
+    }
+  ],
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "56.0",
+  "packageAliases": {
+    "lwc-mini-hack-TDX23": "0HoDn000000sY46KAE",
+    "lwc-mini-hack-TDX23@0.1.0-1": "04tDn000000Fg4eIAC"
+  }
+}

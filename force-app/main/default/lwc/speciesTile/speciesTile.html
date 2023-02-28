@@ -1,0 +1,39 @@
+<!-- sldsValidatorIgnore -->
+<template>
+  <template if:true={singleSpecies}>
+    <lightning-card title={singleSpecies.Name} icon-name="custom:custom5" class="slds-card_boundary">
+      <lightning-button
+        label="View Details"
+        slot="actions"
+        onclick={handleViewDetails}
+      ></lightning-button>
+      <!-- body -->
+      <p class="slds-var-p-horizontal_small description">
+        {singleSpecies.Description__c}
+      </p>
+      <div class="slds-align_absolute-center">
+        <img
+          class="species"
+          src={imageURL}
+          alt={singleSpecies.Name}
+        />
+      </div>
+      <p class="slds-var-p-top_small slds-align_absolute-center">
+        <template if:true={showOutdoorsIcon}>
+          <lightning-icon
+            icon-name="custom:custom3"
+            alternative-text="ourdoors"
+          ></lightning-icon>
+        </template>
+        <template if:true={showIndoorsIcon}>
+          <lightning-icon
+            icon-name="standard:home"
+            alternative-text="indoors"
+            class="slds-var-m-left_small"
+          ></lightning-icon>
+        </template>
+      </p>
+      <!-- end body -->
+    </lightning-card>
+  </template>
+</template>

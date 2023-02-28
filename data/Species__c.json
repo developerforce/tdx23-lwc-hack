@@ -1,0 +1,104 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Species__c",
+        "referenceId": "Species__cRef1"
+      },
+      "Name": "Mint",
+      "Location__c": "Indoors;Outdoors",
+      "Description__c": "Mint is a herb with very fragrant, toothed leaves and tiny purple, pink, or white flowers. Used for cooking and to make tea.",
+      "Image_Name__c": "mint.png"
+    },
+    {
+      "attributes": {
+        "type": "Species__c",
+        "referenceId": "Species__cRef2"
+      },
+      "Name": "Jasmine",
+      "Location__c": "Outdoors",
+      "Description__c": "The jasmine plant is a source of exotic fragrance in warmer climates. It is an important scent noted in perfumes, and also has herbal properties.",
+      "Image_Name__c": "jasmine.png"
+    },
+    {
+      "attributes": {
+        "type": "Species__c",
+        "referenceId": "Species__cRef3"
+      },
+      "Name": "Pothos",
+      "Location__c": "Indoors",
+      "Description__c": "Pothos is an attractive trailing vine with heart-shaped leaves that tolerates low light and minimal watering.",
+      "Image_Name__c": "pothos.png"
+    },
+    {
+      "attributes": {
+        "type": "Species__c",
+        "referenceId": "Species__cRef4"
+      },
+      "Name": "Swedish Ivy",
+      "Location__c": "Indoors",
+      "Description__c": "Swedish Ivy is an evergreen perennial in the mint family, with a lovely, drooping growth habit that makes it ideal for hanging baskets.",
+      "Image_Name__c": "swedish-ivy.png"
+    },
+    {
+      "attributes": {
+        "type": "Species__c",
+        "referenceId": "Species__cRef5"
+      },
+      "Name": "Aloe Vera",
+      "Location__c": "Indoors;Outdoors",
+      "Description__c": "Aloe is stemless or very short-stemmed with thick, greenish, fleshy leaves that fan out from the plant's central stem. Used in medicine.",
+      "Image_Name__c": "aloe-vera.png"
+    },
+    {
+      "attributes": {
+        "type": "Species__c",
+        "referenceId": "Species__cRef6"
+      },
+      "Name": "Parsley",
+      "Location__c": "Indoors;Outdoors",
+      "Description__c": "Parsley is a biennial plant with bright green, feather-like leaves that is in the same family as dill. Used for cooking.",
+      "Image_Name__c": "parsley.png"
+    },
+    {
+      "attributes": {
+        "type": "Species__c",
+        "referenceId": "Species__cRef7"
+      },
+      "Name": "Monstera",
+      "Location__c": "Indoors",
+      "Description__c": "Monstera are species of evergreen tropical vines and shrubs. They are famous for their natural leaf-holes, which led to their nickname, Swiss Cheese Plant.",
+      "Image_Name__c": "monstera.png"
+    },
+    {
+      "attributes": {
+        "type": "Species__c",
+        "referenceId": "Species__cRef8"
+      },
+      "Name": "Marantas",
+      "Location__c": "Indoors",
+      "Description__c": "Marantas are nicknamed prayer plants – they close up their leaves at night, like hands in prayer, before opening them up again at dawn.",
+      "Image_Name__c": "marantas.png"
+    },
+    {
+      "attributes": {
+        "type": "Species__c",
+        "referenceId": "Species__cRef9"
+      },
+      "Name": "Fountain Grass",
+      "Location__c": "Outdoors",
+      "Description__c": "Named for its especially graceful spray of foliage, fountaingrass also sends out beautiful, fuzzy flower plumes in late summer.",
+      "Image_Name__c": "fountain-grass.png"
+    },
+    {
+      "attributes": {
+        "type": "Species__c",
+        "referenceId": "Species__cRef10"
+      },
+      "Name": "Black-eyed Susan",
+      "Location__c": "Outdoors",
+      "Description__c": "Beloved by pollinators, black-eyed Susans generally bloom from June to August, often blanketing open fields with their golden-yellow beauty.",
+      "Image_Name__c": "black-eyed-susan.png"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+<template>
+  <div class="slds-card">
+    <div class="slds-var-p-around_medium">
+      <div class="slds-grid slds-wrap slds-grid_align-spread">
+        <template if:true={species.data}>
+          <template for:each={species.data} for:item="singleSpecies">
+            <div key={singleSpecies.Name}>
+              <c-species-tile
+                single-species={singleSpecies}
+                class="slds-col slds-var-m-around_small"
+              ></c-species-tile>
+            </div>
+          </template>
+          <template if:true={species.error}>
+            Error retrieving species.</template
+          >
+        </template>
+      </div>
+    </div>
+  </div>
+</template>
