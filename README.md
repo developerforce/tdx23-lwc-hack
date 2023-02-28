@@ -34,7 +34,7 @@ The business requirement says _“When a user types a value on a filter input, t
 This is how the page needs to look like:
 The rough steps to complete this challenge are:
 
-- Create the filter using the `lightning-input` base component.[Here](https://developer.salesforce.com/docs/component-library/overview/components) you have the base component library.
+- Create the filter using the `lightning-input` base component. [Here](https://developer.salesforce.com/docs/component-library/overview/components) you have the base component library.
 - Import the existing Apex method `getFilteredSpecies` from the `SpeciesService` class into the `speciesList` component, instead of the one that’s being used. Check the [documentation](https://developer.salesforce.com/docs/component-library/documentation/en/lwc/lwc.apex) if you don’t know how to do it.
 - Invoke `getFilteredSpecies` passing in the value that the user types on the `lightning-input` component. Remember this should only happen if the user wrote at least 3 characters, and that filtered species must be cached.
 - Note: Remember to avoid caching issues while developing, you’ll have to activate Lightning Components debug mode.
