@@ -30,7 +30,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Species__c.Image_Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
